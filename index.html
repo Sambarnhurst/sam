@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sam's 52 Modules</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background:#111; color:#eee; }
+    h1 { text-align: center; color:#0ff; }
+    ul { list-style: none; padding: 0; max-width: 800px; margin: auto; }
+    li { background:#222; margin: 8px 0; padding: 12px; border-radius: 8px; }
+    li:hover { background:#333; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <h1> Master Curriculum  52 Modules</h1>
+  <ul id="module-list"></ul>
+
+  <script>
+    const modules = [
+      "Module 1: Computer Science Basics",
+      "Module 2: Programming Foundations",
+      "Module 3: Algorithms & Data Structures",
+      "Module 4: Operating Systems",
+      "Module 5: Computer Architecture",
+      "Module 6: Networking Fundamentals",
+      "Module 7: Databases",
+      "Module 8: Web Development Basics",
+      "Module 9: Frontend Development",
+      "Module 10: Backend Development",
+      "Module 11: APIs & REST",
+      "Module 12: Full-Stack Integration",
+      "Module 13: DevOps Foundations",
+      "Module 14: Cloud Computing",
+      "Module 15: Virtualization & Containers",
+      "Module 16: Cybersecurity Fundamentals",
+      "Module 17: Applied Cryptography",
+      "Module 18: Software Testing",
+      "Module 19: Agile & Scrum",
+      "Module 20: Version Control (Git)",
+      "Module 21: Data Science Foundations",
+      "Module 22: Probability & Statistics",
+      "Module 23: Linear Algebra",
+      "Module 24: Machine Learning Basics",
+      "Module 25: Deep Learning",
+      "Module 26: Natural Language Processing",
+      "Module 27: Computer Vision",
+      "Module 28: Reinforcement Learning",
+      "Module 29: AI Ethics & Safety",
+      "Module 30: Quantum Computing Basics",
+      "Module 31: Quantum Algorithms",
+      "Module 32: Quantum Hardware",
+      "Module 33: Simulation & Modelling",
+      "Module 34: High Performance Computing",
+      "Module 35: Parallel Programming",
+      "Module 36: Compilers & Interpreters",
+      "Module 37: Programming Languages Theory",
+      "Module 38: Functional Programming",
+      "Module 39: Systems Programming",
+      "Module 40: Blockchain Fundamentals",
+      "Module 41: Smart Contracts",
+      "Module 42: Web3 Development",
+      "Module 43: 3D Graphics Basics",
+      "Module 44: Game Development",
+      "Module 45: VR & AR Foundations",
+      "Module 46: CAD & 3D Printing",
+      "Module 47: Robotics Foundations",
+      "Module 48: IoT Systems",
+      "Module 49: Edge Computing",
+      "Module 50: Emerging Tech (AI+Quantum)",
+      "Module 51: Capstone Projects",
+      "Module 52: Master Portfolio"
+    ];
+    const ul = document.getElementById("module-list");
+    modules.forEach(m => {
+      const li = document.createElement("li");
+      li.textContent = m;
+      ul.appendChild(li);
+    });
+  </script>
+</body>
+</html>
